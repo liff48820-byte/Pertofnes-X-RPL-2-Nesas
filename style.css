@@ -239,3 +239,40 @@ footer {
   font-size:40px;
   cursor:pointer;
 }
+
+/* RESPONSIVE HP */
+@media(max-width:768px){
+
+  .hero{
+    height: 120vh;
+    padding: 20px;
+
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero h2{
+    font-size: 28px;
+  }
+
+  .hero p{
+    font-size: 14px;
+  }
+
+  header{
+    padding: 12px 20px;
+  }
+
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a{
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+}
