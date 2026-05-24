@@ -322,3 +322,14 @@ footer {
   }
 
 }
+
+@media screen and (max-width:768px){
+
+  .hero{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #0f172a;
+  }
+
+}
